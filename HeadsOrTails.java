@@ -27,6 +27,12 @@ public class HeadsOrTails {
             }
         }
         System.out.println("Heads: " + hCount + ", Tails: " + tCount);
+        if(hCount >= 2){
+            System.out.println("You won!");
+        } else {
+            System.out.println("You lost.");
+        }
+        sc.close();
 
     }
 }
